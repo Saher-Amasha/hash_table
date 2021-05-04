@@ -81,10 +81,7 @@ public class HashTable {
 			hashArray[index].insert(newElem);
 			//INSERT ELEMENT
 			
-			//ELEMENT GETS INSERTED AFTER THE CURSOUR 
-			// THATS WHY WE NEED TO GO TO THE BEGGINING OF THE LIST
-			//ADD NEW ELEMNT TO THE 2ND PLACE IN THE LIST
-			//THEN SWAP THE FIRST AND THE SECOND ELEMENT
+
 			hashArray[index].gotoBeginning();
 			if(hashArray[index].gotoNext()==true) {
 				
