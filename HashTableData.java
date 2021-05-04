@@ -1,5 +1,3 @@
-package lab10;
-
 
 public class HashTableData
 {
@@ -50,27 +48,6 @@ public class HashTableData
 	public double getAverage() {
 		return average;
 	}
-/*
-	public void setKey(String key) {
-		this.key = key;
-	}
-
-	public void setFirst_name(String first_name) {
-		this.first_name = first_name;
-	}
-
-	public void setId(Long id) {
-		this.id = id;
-	}
-
-	public void setAge(int age) {
-		this.age = age;
-	}
-
-	public void setAverage(double average) {
-		this.average = average;
-	}
-*/
 	@Override
 	public String toString() {
 		return "[key=" + key + ", first_name=" + first_name + ", id=" + id + ", age=" + age + ", average="
