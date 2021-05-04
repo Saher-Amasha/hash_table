@@ -1,5 +1,3 @@
-package lab10;
-
 public class HashTable {
 	private static final int DEF_MAX_HASH_SIZE = 10; // Default maximum hash table size
 	private SLinkedList<HashTableData>[] hashArray; // Array containing the lists of keys
